@@ -8,6 +8,7 @@ class Familiar(models.Model):
     direccion = models.CharField(max_length=200)
     numero_dni = models.IntegerField()
 
+
 def __str__(self):
-      return f"{self.nombre}, {self.direccion}, {self.numero_dni}"
+      return f"{self.nombre}, {self.nacimiento}, {self.direccion}, {self.numero_dni}"
 
