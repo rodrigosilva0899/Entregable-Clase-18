@@ -10,8 +10,8 @@
 
     <h1>Lista de mis familiares</h1>
     <ul>
-    {% for Familiar in lista_familiares %}
-            <li> ID: {{Familiar.id}}, Nombre: {{Familiar.nombre}}, Dirección: {{Familiar.direccion}}, Fecha de Nacimiento: {{Familiar.fecha_nacimiento}}, Numero de DNI: {{Familiar.numero_dni}} </li>
+    {% for familiar in lista_familiares %}
+        <li> Nombre: {{familiar.nombre}}, Dirección: {{familiar.direccion}}, Numero de DNI: {{familiar.numero_dni}} </li>
     {% endfor %}
     </ul>
 
