@@ -11,7 +11,7 @@
     <h1>Lista de mis familiares</h1>
     <ul>
     {% for familiar in lista_familiares %}
-            <li> Nombre: {{familiar.nombre}}, Dirección: {{familiar.direccion}}, Pasaporte: {{familiar.numero_pasaporte}} </li>
+            <li> ID: {{familiar.id}}, Nombre: {{familiar.nombre}}, Dirección: {{familiar.direccion}}, Fecha de Nacimiento: {{familiar.fecha_nacimiento}}, Numero de DNI: {{familiar.numero_dni}} </li>
     {% endfor %}
     </ul>
 

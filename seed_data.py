@@ -1,6 +1,8 @@
 from MVT.models import Familiar
-Familiar(nombre="Rosario", direccion="Rio Parana 745", numero_pasaporte=123123).save()
-Familiar(nombre="Alberto", direccion="Rio Parana 745", numero_pasaporte=890890).save()
-Familiar(nombre="Samuel", direccion="Rio Parana 745", numero_pasaporte=345345).save()
-Familiar(nombre="Florencia", direccion="Rio Parana 745", numero_pasaporte=567567).save()
+
+Familiar(nombre="Santiago", direccion="Libertador 4000", numero_dni=18400500, fecha_nacimiento='20/08/1968').save()
+Familiar(nombre="Silvina", direccion="Libertador 4100", numero_dni=27200500, fecha_nacimiento='26/04/1970').save()
+Familiar(nombre="Tomas", direccion="Libertador 4200", numero_dni=41300100, fecha_nacimiento='29/10/1996').save()
+Familiar(nombre="Nicolas", direccion="Soldado de la Independencia 100", numero_dni=37200400, fecha_nacimiento='06/03/1991').save()
+
 print("Se cargo con éxito los usuarios de pruebas")
