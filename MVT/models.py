@@ -5,7 +5,7 @@ from django.db import models
 class Familiar(models.Model):
     nombre = models.CharField(max_length=100)
     direccion = models.CharField(max_length=200)
-    fecha_nacimiento = models.DateField('dd/mm/yyyy')
+    fecha_nacimiento = models.DateField()
     numero_dni = models.IntegerField()
 
 def __str__(self):
