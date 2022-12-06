@@ -7,3 +7,7 @@ print("gol")
 # 5) git remote add origin "link" -> para configurar GITHUB -> GITHUB / Crear Proyecto / Code / HTTPS / copio link
 # 6) git branch -> para chequear que estemos en main
 # 7) git pull -> para traer lo del repositorio
+# 8) git add main.py -> para versionar el archivo main.py
+# 9) git status -> para chequear que hay un nuevo archivo para seguir
+# 10) git commit -m -> para commitear el archivo
+# 11) git push origin main -> para enviar los cambios a github
